@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>是青稚呀</title>
+  <icon>https://www.gravatar.com/avatar/aff76b30f63daefa62c13915bfd7a0ea</icon>
+  <subtitle>生命不息,折腾不止</subtitle>
+  <link href="http://sunkme.com/atom.xml" rel="self"/>
+  
+  <link href="http://sunkme.com/"/>
+  <updated>2022-03-16T13:36:14.082Z</updated>
+  <id>http://sunkme.com/</id>
+  
+  <author>
+    <name>是青稚呀</name>
+    <email>sunkme@163.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://sunkme.com/2022/03/16/hello-world/"/>
+    <id>http://sunkme.com/2022/03/16/hello-world/</id>
+    <published>2022-03-16T13:36:14.082Z</published>
+    <updated>2022-03-16T13:36:14.082Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>demo</title>
+    <link href="http://sunkme.com/2021/11/25/demo/"/>
+    <id>http://sunkme.com/2021/11/25/demo/</id>
+    <published>2021-11-25T03:49:16.000Z</published>
+    <updated>2021-11-29T13:23:30.800Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="meta"># <span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line">    <span class="meta"># <span class="keyword">include</span><span class="string">&lt;graphics.h&gt;</span></span></span><br><span class="line">    <span class="meta"># <span class="keyword">include</span><span class="string">&lt;math.h&gt;</span></span></span><br><span class="line">    <span class="meta"># <span class="keyword">include</span><span class="string">&lt;conio.h&gt;</span></span></span><br><span class="line">    # definePI <span class="number">3.1415926</span> </span><br><span class="line">    <span class="comment">//绘制心形线的函数</span></span><br><span class="line">    <span class="type">void</span>  <span class="title function_">cardioid</span><span class="params">( <span class="type">int</span> x, <span class="type">int</span> y, <span class="type">int</span> a)</span></span><br><span class="line">    <span class="comment">//x: x方向上的偏移量/</span></span><br><span class="line">    /y: y方向上的偏移量</span><br><span class="line">    <span class="comment">//a: 缩放倍数</span></span><br><span class="line">    &#123;</span><br><span class="line">    intx1, y1, x2, y2;</span><br><span class="line">     doubleangle = <span class="number">0</span>; </span><br><span class="line">    <span class="keyword">while</span>(angle &lt;= <span class="number">2</span>* PI)</span><br><span class="line">     &#123;</span><br><span class="line">    x1 = a * ( <span class="number">2</span>* <span class="built_in">sin</span>(angle) + <span class="built_in">sin</span>( <span class="number">2</span>* angle)) + x; </span><br><span class="line">    y1 = a * ( <span class="number">2</span>* <span class="built_in">cos</span>(angle) + <span class="built_in">cos</span>( <span class="number">2</span>* angle)) + y; </span><br><span class="line">    angle += (PI / <span class="number">180</span>); </span><br><span class="line">    x2 = a * ( <span class="number">2</span>* <span class="built_in">sin</span>(angle) + <span class="built_in">sin</span>( <span class="number">2</span>* angle)) + x;</span><br><span class="line">     y2 = a * ( <span class="number">2</span>* <span class="built_in">cos</span>(angle) + <span class="built_in">cos</span>( <span class="number">2</span>* angle)) + y;</span><br><span class="line">     line(x1, y1, x2, y2);Sleep( <span class="number">5</span>); </span><br><span class="line">    &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> <span class="title function_">main</span><span class="params">( <span class="type">void</span>)</span> </span><br><span class="line">    &#123;initgraph( <span class="number">960</span>, <span class="number">540</span>); </span><br><span class="line">    setlinecolor(RGB( <span class="number">255</span>, <span class="number">0</span>, <span class="number">0</span>)); </span><br><span class="line">    cardioid( <span class="number">480</span>, <span class="number">270</span>, <span class="number">50</span>);</span><br><span class="line">     <span class="type">int</span> ret = getch; </span><br><span class="line">    closegraph;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">     &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World！&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>X<code>2</code></p><p>X<del>2</del></p><p>X^2^</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;li</summary>
+      
+    
+    
+    
+    
+    <category term="cs" scheme="http://sunkme.com/tags/cs/"/>
+    
+  </entry>
+  
+</feed>
