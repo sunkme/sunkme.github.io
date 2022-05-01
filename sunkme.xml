@@ -6,7 +6,7 @@
   <link href="http://sunkme.com/sunkme.xml" rel="self"/>
   
   <link href="http://sunkme.com/"/>
-  <updated>2022-03-16T13:36:14.082Z</updated>
+  <updated>2021-11-26T14:55:17.117Z</updated>
   <id>http://sunkme.com/</id>
   
   <author>
@@ -17,22 +17,23 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://sunkme.com/2022/05/01/hello-world/"/>
-    <id>http://sunkme.com/2022/05/01/hello-world/</id>
-    <published>2022-05-01T08:37:31.268Z</published>
-    <updated>2022-03-16T13:36:14.082Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
+    <title>STM32学习笔记</title>
+    <link href="http://sunkme.com/2021/11/26/STM32%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://sunkme.com/2021/11/26/STM32%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-11-26T13:14:33.000Z</published>
+    <updated>2021-11-26T14:55:17.117Z</updated>
     
     
     
+    
+    
+    <category term="ST32" scheme="http://sunkme.com/tags/ST32/"/>
+    
+    <category term="学习" scheme="http://sunkme.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="单片机" scheme="http://sunkme.com/tags/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    <category term="keil" scheme="http://sunkme.com/tags/keil/"/>
     
   </entry>
   
@@ -55,6 +56,25 @@
     
     
     <category term="cs" scheme="http://sunkme.com/tags/cs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World!</title>
+    <link href="http://sunkme.com/2021/11/21/Hello-World/"/>
+    <id>http://sunkme.com/2021/11/21/Hello-World/</id>
+    <published>2021-11-21T11:09:15.000Z</published>
+    <updated>2021-11-28T14:31:48.044Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​        折腾了一天，终于把所以的Bug排除了，看到网页生成的那一刻心情是十分的快乐的。<span id="more"></span>虽然现在网站还不是十分的美观，很多功能还没有实现，但是我相信会有一天”它”会和我想像的那样<em><strong>beautiful</strong></em>。</p><h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><p>​        最初有这个想法是在2015年的暑假，那时候对于电脑很是痴迷，而且当时智能手机还没有像现在这样普及，那时候天天在家里玩着飞车，很多时候都是这样玩着玩着就十分的无聊，于是看看论坛，看到很多人在论坛中推广自己的网站，于是当时就有自己做一个网站的想法，<strong>一个属于自己的网站</strong>——后来因为自己学业上的一些事情于是就没有完成当时的想法，还有一个比较重要的原因当时的我并没有多少的金钱和一张可以在网上支付的银行卡（注解：当时银行卡要想在网上支付必须要开通网银账户）。由于以上的种种原因所以一直没有没有着手做自己的网站。</p><h2 id="等待"><a href="#等待" class="headerlink" title="等待"></a>等待</h2><p>​        高中因为学业繁忙没有时间，加上没有computer，所以没有继续做这个想法。</p><h2 id="第一次尝试"><a href="#第一次尝试" class="headerlink" title="第一次尝试"></a>第一次尝试</h2><p>​        2020年的8月份，我第一次真真正正的开始了，个人网站的建设从网站的服务商选择，网站的域名，服务器的规格，网站的名字，图标等等。都想了很多，从网站的备案到网站的上线一共用了3天的时间。主要是因为网站的备案有点长（当然啦，这个速度其实还可以，）。还记得当时用<strong>wordpress + 宝塔面板</strong>的方法建立的网站。本来想一直运行这个网站的但中间出现一个插曲。</p><h3 id="一个来自腾讯云的电话"><a href="#一个来自腾讯云的电话" class="headerlink" title="一个来自腾讯云的电话"></a>一个来自腾讯云的电话</h3><p>​        2021年4月22号。还记得那天的天气很好，本来以为和往常一样打开<em><strong>CS:GO</strong></em>本来还想在炎热沙城2中大杀四方，结果一个电话打过来，搞得我当场就被对面拿着<strong>AWM</strong>一枪爆了头，草草的结束了这一场游戏。拿起手机接听对面传来了一个男性的声音他和我说他是腾讯云的开始的时候我还以为我腾讯云欠费了:joy:结果原来他是腾讯云做域名交易的，说有一个人想买我的域名。给我开出一个我这个学生无法助绝的价格。中间经历一个星期左右的时间（主要因为当时腾讯云域名经理业务还没有在官网上线，作为第一批用户还是蛮幸运的），把域名以一个我现在看起来就比较亏的价格卖出去了。当然了这个价值也是我的认知范围毕竟没有人可以赚到认知范围以外的钱。</p><h2 id="Begin-Again"><a href="#Begin-Again" class="headerlink" title="Begin Again"></a>Begin Again</h2><p>​        趁着双十一的优惠买了一个域名，思来想去还是想采用<strong>GitHub+hexo</strong>的方式做一个个人博客。</p><ul><li><p>第一毕竟服务器后期的维护成本比较高。</p></li><li><p>第二还有可以通过这个网站增加自己建设网站的能力。</p></li><li><p>第三可以为以后用云服务器建设网站做好准备。</p></li></ul><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>​        暂时还没有。</p><p><img src="https://pluspng.com/img-png/see-you-again-png-5-2085.png" alt="see you again" title="see you again"></p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;​        折腾了一天，终于把所以的Bug排除了，看到网页生成的那一刻心情是十分的快乐的。</summary>
+    
+    
+    
+    
+    <category term="life" scheme="http://sunkme.com/tags/life/"/>
     
   </entry>
   
